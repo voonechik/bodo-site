@@ -1,16 +1,16 @@
 $(document).ready(function() {
-	
-	$('[title = "Hosted on free web hosting 000webhost.com. Host your own website for FREE."]').css('display', 'none');
-	
+  
+  $('[title = "Hosted on free web hosting 000webhost.com. Host your own website for FREE."]').css('display', 'none');
+  
 });
 
 /*-----------------TYPED.JS-----------------*/
 
 $(".typed").typed({
-	strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
-	typeSpeed: 100,
-	backDelay: 900,
-	loop: true
+  strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
+  typeSpeed: 100,
+  backDelay: 900,
+  loop: true
 });
 
 /*-----------------END TYPED.JS-----------------*/
@@ -96,10 +96,10 @@ inits();
 /*-----------------OWL CAROUSEL-----------------*/
 
 $(".owl-carousel").owlCarousel({
-	
-	items: 1, 
-	smartSpeed: 800
-	
+  
+  items: 1, 
+  smartSpeed: 800
+  
 });
 
 /*-----------------END OWL CAROUSEL-----------------*/
@@ -108,15 +108,15 @@ $(".owl-carousel").owlCarousel({
 /*-----------------POPUP WINDOWS-----------------*/
 
 $('.popup-link').magnificPopup({
-	
-	type: "image",
-	gallery: {
-		enabled: true,
-		tPrev: 'Previous (Left arrow key)',
-		tNext: 'Next (Right arrow key)',
-		tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
-	}
-		
+  
+  type: "image",
+  gallery: {
+    enabled: true,
+    tPrev: 'Previous (Left arrow key)',
+    tNext: 'Next (Right arrow key)',
+    tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
+  }
+    
 });
 
 /*-----------------END POPUP WINDOWS-----------------*/
@@ -141,8 +141,8 @@ jQuery('.skill-item').each(function() {
 
 var $container = $(".masonry-container");
 $container.masonry({
-	itemSelector: ".masonry-card",
-	columnWidth: ".masonry-card"
+  itemSelector: ".masonry-card",
+  columnWidth: ".masonry-card"
 });
 
 /*-----------------END MASONORY-----------------*/
